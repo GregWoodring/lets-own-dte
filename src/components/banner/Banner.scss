@@ -1,0 +1,34 @@
+@import '../../variables.scss';
+
+.banner-body{
+    height: 75vh;
+    width: 100vw;
+    background-image: url('../../assets/ann-arbor-state-street.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-title{
+    color: #fff;
+    font-size: 4em;
+}
+
+.banner-text{
+    margin-top: 2em;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.banner-button{
+    border: none;
+    background-color: $dark-blue;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: .75em 1.5em;
+    margin-top: 2em;
+}
