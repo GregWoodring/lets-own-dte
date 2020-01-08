@@ -24,6 +24,13 @@
     cursor: pointer;
     font-size: 1rem;
     margin: 0 .5em;
+    transition: all .5s ease-in-out;
+}
+
+.button-empty:hover{
+    background: $light-blue;
+    transition: all .5s ease-in-out;
+    color: #fff;
 }
 
 .button-filled{
@@ -34,4 +41,11 @@
     border: none;
     margin: 0 .5em;
     cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.button-filled:hover{
+    background: $light-blue;
+    transition: all .5s ease-in-out;
+    color: #fff;
 }
